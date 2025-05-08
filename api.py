@@ -1,10 +1,6 @@
 from fastapi import FastAPI, HTTPException, UploadFile, File
-from fastapi.responses import JSONResponse
 import json
 import uvicorn
-from io import BytesIO
-from typing import Dict, Any, List, Optional
-import invoice_normalizer
 from invoice_normalizer import normalize_invoice_data
 
 app = FastAPI(title="Invoice Data Normalizer API")
