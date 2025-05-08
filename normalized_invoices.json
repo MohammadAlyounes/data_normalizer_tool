@@ -1,0 +1,61 @@
+[
+  {
+    "invoice_number": "INV-2023-001",
+    "invoice_date": "2023-05-01",
+    "customer": "Acme Corp",
+    "items": [
+      {
+        "description": "Service A",
+        "price": "$500.00"
+      },
+      {
+        "description": "Service B",
+        "price": "250,00 \u20ac"
+      }
+    ],
+    "amount": 750.0,
+    "status": "PAID"
+  },
+  {
+    "invoice_number": "2023-002",
+    "invoice_date": "2023-05-15",
+    "customer": "TechSolutions Inc.",
+    "items": [
+      {
+        "description": "Consulting",
+        "price": 1200
+      }
+    ],
+    "amount": 1200.0,
+    "status": "unpaid"
+  },
+  {
+    "invoice_number": "INV003",
+    "invoice_date": "2023-06-15",
+    "customer": "Global Services",
+    "items": [
+      {
+        "description": "Monthly Maintenance",
+        "price": "\u20ac1,450.75"
+      }
+    ],
+    "amount": 1450.75,
+    "status": "pending"
+  },
+  {
+    "invoice_number": "2023/004",
+    "invoice_date": "2023-06-30",
+    "customer": "Smith & Co",
+    "items": [
+      {
+        "description": "Product X",
+        "price": "800"
+      },
+      {
+        "description": "Installation",
+        "price": "150.50"
+      }
+    ],
+    "amount": 950.5
+  }
+]

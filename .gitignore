@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv
+.idea
+env/
+venv/
+/env
+/venv
+tmp/
+temp/
+build/
+dist/
+logs/
+*.log
+*.egg-info/
+data_generation.py
+
+# Docker
+.env # Exclude environment variables
