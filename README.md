@@ -24,8 +24,6 @@ A FastAPI application that normalizes messy invoice data with inconsistent forma
 
 ├── normalized_invoices.json  # Output of invoice after parsing
 
-├── data_generation.json      # Bonus: I created this script to get familiar with what invoice data looks like
-
 └── README.md                 # This documentation
 
 ## Running the Application
@@ -35,7 +33,13 @@ A FastAPI application that normalizes messy invoice data with inconsistent forma
 Change dir to cloned project folder and from CMD run docker build -t invoice-normalizer .
 3. Run the Docker container: docker run -p 8000:8000 invoice-normalizer
 4. Access the Interactive API documentation is available at: Swagger UI: http://localhost:8000/docs. Then choose the post endpoint /normalize and upload your invoice as JSON
-   (As in the figures below)
+   (As in the figures below):
+   Input:
+   ![sample_input](https://github.com/user-attachments/assets/27d4699c-39d4-4c34-b26e-74430749333d)
+
+
+   Output:
+   ![sample_output](https://github.com/user-attachments/assets/d6ec1935-ad11-4aae-be20-de8fe2a3db4c)
 
 ## Suggestion for better performance:
 
